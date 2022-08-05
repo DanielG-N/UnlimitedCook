@@ -8,6 +8,4 @@ public class RecipeController : ControllerBase
 
     public RecipeController(RecipeDB recipeDB) =>
         _recipeDB = recipeDB;
-
-    
 }

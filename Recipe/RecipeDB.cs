@@ -3,7 +3,7 @@ using MongoDB.Driver;
 
 public class RecipeDB
 {
-    private readonly IMongoCollection<Recipe> _recipeCollection;
+    public readonly IMongoCollection<Recipe> _recipeCollection;
 
     public RecipeDB(
         IOptions<RecipeDatabaseSettings> recipeDatabaseSettings)
@@ -15,6 +15,6 @@ public class RecipeDB
             recipeDatabaseSettings.Value.DatabaseName);
 
         _recipeCollection = mongoDatabase.GetCollection<Recipe>(
-            recipeDatabaseSettings.Value.BooksCollectionName);
+            "Recipes");
     }
 }

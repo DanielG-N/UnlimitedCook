@@ -4,5 +4,5 @@ public class RecipeDatabaseSettings
 
     public string DatabaseName { get; set; } = null!;
 
-    public string BooksCollectionName { get; set; } = null!;
+    public string RecipeCollectionName { get; set; } = null!;
 }

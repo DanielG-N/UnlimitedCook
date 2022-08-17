@@ -16,13 +16,6 @@ public class CookBookController : ControllerBase
         return await _cookBookDB.Find(_ => true).ToListAsync();
     }
 
-    [HttpPost]
-    public async Task<IResult> CreateCookBook(CookBook cookBook)
-    {
-        await _cookBookDB.InsertOneAsync(cookBook);
-        return Results.Created($"/{cookBook.Id}", cookBook);
-    }
-
     [HttpGet("{id}")]
     public async Task<ActionResult<CookBook>> GetCookBook(int id)
     {
@@ -32,6 +25,21 @@ public class CookBookController : ControllerBase
             return NotFound();
 
         return Ok(cookBook);
+    }
+
+    // [HttpGet("getRecipes/{cookBookId}")]
+    // public async Task<ActionResult<List<CookBook>>> GetRecipes(int cookBookId)
+    // {
+    //     var cookBook = await _cookBookDB.Find(x => x.Id == cookBookId).FirstOrDefaultAsync();
+
+    //     return await _cookBookDB.Find(_ => true).ToListAsync();
+    // }
+
+    [HttpPost]
+    public async Task<IResult> CreateCookBook(CookBook cookBook)
+    {
+        await _cookBookDB.InsertOneAsync(cookBook);
+        return Results.Created($"/{cookBook.Id}", cookBook);
     }
 
     [HttpPut("{cookBookId}")]
@@ -55,7 +63,7 @@ public class CookBookController : ControllerBase
     }
 
     [HttpDelete("{id}")]
-    public async Task<IResult> DeleteRecipe(int id)
+    public async Task<IResult> DeleteCookBook(int id)
     {
         var cookBook = await _cookBookDB.FindOneAndDeleteAsync(r => r.Id == id);
 

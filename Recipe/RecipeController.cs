@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using MongoDB.Driver;
+using MongoDB.Driver.Linq; 
 
 [ApiController]
 [Route("recipe")]
@@ -10,12 +11,6 @@ public class RecipeController : ControllerBase
     public RecipeController(RecipeDB recipeDB) =>
         _recipeDB = recipeDB._recipeCollection;
 
-    [HttpGet]
-    public async Task<ActionResult<List<Recipe>>> GetAllRecipes()
-    {
-        return await _recipeDB.Find(_ => true).ToListAsync();
-    }
-
     [HttpPost]
     public async Task<IResult> AddRecipe(Recipe recipe)
     {
@@ -23,8 +18,14 @@ public class RecipeController : ControllerBase
         return Results.Created($"/{recipe.Id}", recipe);
     }
 
+    [HttpGet]
+    public async Task<ActionResult<List<Recipe>>> GetAllRecipes()
+    {
+        return await _recipeDB.Find(_ => true).ToListAsync();
+    }
+
     [HttpGet("{id}")]
-    public async Task<ActionResult<Recipe>> GetItem(string id)
+    public async Task<ActionResult<Recipe>> GetRecipe(string id)
     {
         var recipe = await _recipeDB.Find(x => x.Id == id).FirstOrDefaultAsync();
 
@@ -32,6 +33,18 @@ public class RecipeController : ControllerBase
             return NotFound();
 
         return Ok(recipe);
+    }
+
+    [HttpGet("getRecipes")]
+    public async Task<ActionResult<List<Recipe>>> GetRecipes(List<string> ids)
+    {
+        return await _recipeDB.Find(Builders<Recipe>.Filter.In(r => r.Id, ids)).ToListAsync();
+    }
+
+    [HttpGet("randomRecipes")]
+    public async Task<ActionResult<List<Recipe>>> GetRandomRecipes(string id)
+    {
+        return await _recipeDB.AsQueryable().Sample(10).ToListAsync();
     }
 
     [HttpPut]

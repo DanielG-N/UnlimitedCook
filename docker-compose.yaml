@@ -1,0 +1,55 @@
+version: '3.8'
+
+networks:
+  netCook.1:
+    external: false
+services:
+  apigateway.c:
+    container_name: apigateway.c
+    build:
+      context: ./ApiGateway/
+      dockerfile: 2.dockerfile
+    image: apigateway.c:1    
+    ports:
+      - "8888:8888"
+    networks:
+      - Ecommerce.1    
+    depends_on:
+      - eureka
+
+  user.c:
+    container_name: user.c
+    build:
+      context: ./Db/
+      dockerfile: db.dockerfile
+    #image: sqlserver.c:1
+    # the old way when I wasn't using a dockerfile
+    #image: mcr.microsoft.com/mssql/server:2019-latest
+    ports:
+      - "1435:1433"
+    networks:
+      - netCook.1   
+
+  eureka:
+    container_name: eureka
+    image: steeltoeoss/eureka-server
+    ports:
+      - "8761:8761"
+    networks:
+      - netCook.1
+  
+  user.1.c:
+    container_name: user.1.c
+    build:
+      context: ./User/
+      dockerfile: user.dockerfile
+    image: user.1.c:1
+    ports:
+      - "9005:80"
+    networks:
+      - netCook.1
+    depends_on:
+      - sqlserver.c
+      - eureka.c
+      - redis.c
+      - mongo.c

@@ -15,6 +15,6 @@ public class RecipeDB
             recipeDatabaseSettings.Value.DatabaseName);
 
         _recipeCollection = mongoDatabase.GetCollection<Recipe>(
-            "Recipes");
+            recipeDatabaseSettings.Value.RecipeCollectionName);
     }
 }

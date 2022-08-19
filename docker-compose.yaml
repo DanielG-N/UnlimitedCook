@@ -1,21 +1,24 @@
+# docker-compose -f docker-compose.yaml -p unlimitedcook up --build --force-recreate
+
+
 version: '3.8'
 
 networks:
   netCook.1:
     external: false
 services:
-  # apigateway.c:
-  #   container_name: apigateway.c
-  #   build:
-  #     context: ./ApiGateway/
-  #     dockerfile: 2.dockerfile
-  #   image: apigateway.c:1    
-  #   ports:
-  #     - "8888:8888"
-  #   networks:
-  #     - netCook.1    
-  #   depends_on:
-  #     - eureka
+  apigateway.c:
+    container_name: apigateway.c
+    build:
+      context: ./ApiGateway/
+      dockerfile: 2.dockerfile
+    image: apigateway.c:1    
+    ports:
+      - "8888:8888"
+    networks:
+      - netCook.1
+    depends_on:
+      - eureka.c
 
   user.c:
     container_name: user.c
@@ -28,7 +31,7 @@ services:
     ports:
       - "1435:1433"
     networks:
-      - netCook.1   
+      - netCook.1  
 
   eureka.c:
     container_name: eureka.c

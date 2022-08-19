@@ -47,6 +47,10 @@
             "MongoDB.Driver": {
               "target": "Package",
               "version": "[2.17.1, )"
+            },
+            "Steeltoe.Discovery.Eureka": {
+              "target": "Package",
+              "version": "[3.2.1, )"
             }
           },
           "imports": [

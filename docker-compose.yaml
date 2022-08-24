@@ -52,10 +52,7 @@ services:
     networks:
       - netCook.1
     depends_on:
-      - sqlserver.c
       - eureka.c
-      - redis.c
-      - mongo.c
   
   cookbook.1.c:
     container_name: cookbook.1.c
@@ -68,10 +65,8 @@ services:
     networks:
       - netCook.1
     depends_on:
-      - sqlserver.c
       - eureka.c
-      - redis.c
-      - mongo.c
+
   
   recipe.1.c:
     container_name: recipe.1.c
@@ -84,7 +79,4 @@ services:
     networks:
       - netCook.1
     depends_on:
-      - sqlserver.c
       - eureka.c
-      - redis.c
-      - mongo.c

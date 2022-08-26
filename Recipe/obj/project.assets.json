@@ -2181,23 +2181,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dgonzalez\\.nuget\\packages\\": {},
+    "C:\\Users\\adeniro\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dgonzalez\\OneDrive - Neumont College of Computer Science\\Documents\\School\\Second Year\\Summer 2022\\ServiceBasedProjects\\UnlimitedCook-1\\Recipe\\Recipe.csproj",
+      "projectUniqueName": "C:\\Users\\adeniro\\School\\Second_Year\\Summer2022\\UnlimitedCook\\Recipe\\Recipe.csproj",
       "projectName": "Recipe",
-      "projectPath": "C:\\Users\\dgonzalez\\OneDrive - Neumont College of Computer Science\\Documents\\School\\Second Year\\Summer 2022\\ServiceBasedProjects\\UnlimitedCook-1\\Recipe\\Recipe.csproj",
-      "packagesPath": "C:\\Users\\dgonzalez\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dgonzalez\\OneDrive - Neumont College of Computer Science\\Documents\\School\\Second Year\\Summer 2022\\ServiceBasedProjects\\UnlimitedCook-1\\Recipe\\obj\\",
+      "projectPath": "C:\\Users\\adeniro\\School\\Second_Year\\Summer2022\\UnlimitedCook\\Recipe\\Recipe.csproj",
+      "packagesPath": "C:\\Users\\adeniro\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\adeniro\\School\\Second_Year\\Summer2022\\UnlimitedCook\\Recipe\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\dgonzalez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\adeniro\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

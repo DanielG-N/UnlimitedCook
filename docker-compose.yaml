@@ -4,23 +4,23 @@ networks:
   netCook.1:
     external: false
 services:
-  apigateway.c:
-    container_name: apigateway.c
-    build:
-      context: ./ApiGateway/
-      dockerfile: 2.dockerfile
-    image: apigateway.c:1    
-    ports:
-      - "8888:8888"
-    networks:
-      - Ecommerce.1    
-    depends_on:
-      - eureka
+  # apigateway.c:
+  #   container_name: apigateway.c
+  #   build:
+  #     context: ./ApiGateway/
+  #     dockerfile: 2.dockerfile
+  #   image: apigateway.c:1    
+  #   ports:
+  #     - "8888:8888"
+  #   networks:
+  #     - netCook.1    
+  #   depends_on:
+  #     - eureka
 
   user.c:
     container_name: user.c
     build:
-      context: ./Db/
+      context: ./User/Db/
       dockerfile: db.dockerfile
     #image: sqlserver.c:1
     # the old way when I wasn't using a dockerfile
@@ -30,8 +30,8 @@ services:
     networks:
       - netCook.1   
 
-  eureka:
-    container_name: eureka
+  eureka.c:
+    container_name: eureka.c
     image: steeltoeoss/eureka-server
     ports:
       - "8761:8761"
@@ -46,6 +46,38 @@ services:
     image: user.1.c:1
     ports:
       - "9005:80"
+    networks:
+      - netCook.1
+    depends_on:
+      - sqlserver.c
+      - eureka.c
+      - redis.c
+      - mongo.c
+  
+  cookbook.1.c:
+    container_name: cookbook.1.c
+    build:
+      context: ./CookBook/
+      dockerfile: cookbook.dockerfile
+    image: cookbook.1.c:1
+    ports:
+      - "9000:80"
+    networks:
+      - netCook.1
+    depends_on:
+      - sqlserver.c
+      - eureka.c
+      - redis.c
+      - mongo.c
+  
+  recipe.1.c:
+    container_name: recipe.1.c
+    build:
+      context: ./Recipe/
+      dockerfile: recipe.dockerfile
+    image: recipe.1.c:1
+    ports:
+      - "9001:80"
     networks:
       - netCook.1
     depends_on:

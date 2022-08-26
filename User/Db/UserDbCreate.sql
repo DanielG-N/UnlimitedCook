@@ -4,7 +4,7 @@ GO
 USE UserDB
 GO
 
-CREATE TABLE User(
+CREATE TABLE Users(
 	Id int NOT NULL PRIMARY KEY IDENTITY(1,1),
 	name varchar(255),
 	username varchar(255),

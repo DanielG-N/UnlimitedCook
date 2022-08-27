@@ -62,3 +62,5 @@ c:\Users\dgonzalez\OneDrive - Neumont College of Computer Science\Documents\Scho
 c:\Users\dgonzalez\OneDrive - Neumont College of Computer Science\Documents\School\Second Year\Summer 2022\ServiceBasedProjects\UnlimitedCook-1\User\obj\Debug\net6.0\User.pdb
 c:\Users\dgonzalez\OneDrive - Neumont College of Computer Science\Documents\School\Second Year\Summer 2022\ServiceBasedProjects\UnlimitedCook-1\User\obj\Debug\net6.0\User.genruntimeconfig.cache
 c:\Users\dgonzalez\OneDrive - Neumont College of Computer Science\Documents\School\Second Year\Summer 2022\ServiceBasedProjects\UnlimitedCook-1\User\obj\Debug\net6.0\ref\User.dll
+c:\Users\dgonzalez\OneDrive - Neumont College of Computer Science\Documents\School\Second Year\Summer 2022\ServiceBasedProjects\UnlimitedCook-1\User\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+c:\Users\dgonzalez\OneDrive - Neumont College of Computer Science\Documents\School\Second Year\Summer 2022\ServiceBasedProjects\UnlimitedCook-1\User\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll

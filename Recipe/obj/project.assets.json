@@ -2181,23 +2181,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\adeniro\\.nuget\\packages\\": {},
+    "C:\\Users\\dgonzalez\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\adeniro\\School\\Second_Year\\Summer2022\\UnlimitedCook\\Recipe\\Recipe.csproj",
+      "projectUniqueName": "c:\\Users\\dgonzalez\\OneDrive - Neumont College of Computer Science\\Documents\\School\\Second Year\\Summer 2022\\ServiceBasedProjects\\UnlimitedCook-1\\Recipe\\Recipe.csproj",
       "projectName": "Recipe",
-      "projectPath": "C:\\Users\\adeniro\\School\\Second_Year\\Summer2022\\UnlimitedCook\\Recipe\\Recipe.csproj",
-      "packagesPath": "C:\\Users\\adeniro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\adeniro\\School\\Second_Year\\Summer2022\\UnlimitedCook\\Recipe\\obj\\",
+      "projectPath": "c:\\Users\\dgonzalez\\OneDrive - Neumont College of Computer Science\\Documents\\School\\Second Year\\Summer 2022\\ServiceBasedProjects\\UnlimitedCook-1\\Recipe\\Recipe.csproj",
+      "packagesPath": "C:\\Users\\dgonzalez\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\dgonzalez\\OneDrive - Neumont College of Computer Science\\Documents\\School\\Second Year\\Summer 2022\\ServiceBasedProjects\\UnlimitedCook-1\\Recipe\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\adeniro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dgonzalez\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2254,5 +2254,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file c:\\Users\\dgonzalez\\OneDrive - Neumont College of Computer Science\\Documents\\School\\Second Year\\Summer 2022\\ServiceBasedProjects\\UnlimitedCook-1\\Recipe\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

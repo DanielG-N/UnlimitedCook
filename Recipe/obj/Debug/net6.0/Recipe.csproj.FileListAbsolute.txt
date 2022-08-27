@@ -36,3 +36,13 @@ C:\Users\dgonzalez\OneDrive - Neumont College of Computer Science\Documents\Scho
 C:\Users\dgonzalez\OneDrive - Neumont College of Computer Science\Documents\School\Second Year\Summer 2022\ServiceBasedProjects\UnlimitedCook-1\Recipe\obj\Debug\net6.0\Recipe.pdb
 C:\Users\dgonzalez\OneDrive - Neumont College of Computer Science\Documents\School\Second Year\Summer 2022\ServiceBasedProjects\UnlimitedCook-1\Recipe\obj\Debug\net6.0\Recipe.genruntimeconfig.cache
 C:\Users\dgonzalez\OneDrive - Neumont College of Computer Science\Documents\School\Second Year\Summer 2022\ServiceBasedProjects\UnlimitedCook-1\Recipe\obj\Debug\net6.0\ref\Recipe.dll
+c:\Users\dgonzalez\OneDrive - Neumont College of Computer Science\Documents\School\Second Year\Summer 2022\ServiceBasedProjects\UnlimitedCook-1\Recipe\bin\Debug\net6.0\Steeltoe.Common.dll
+c:\Users\dgonzalez\OneDrive - Neumont College of Computer Science\Documents\School\Second Year\Summer 2022\ServiceBasedProjects\UnlimitedCook-1\Recipe\bin\Debug\net6.0\Steeltoe.Common.Abstractions.dll
+c:\Users\dgonzalez\OneDrive - Neumont College of Computer Science\Documents\School\Second Year\Summer 2022\ServiceBasedProjects\UnlimitedCook-1\Recipe\bin\Debug\net6.0\Steeltoe.Common.Http.dll
+c:\Users\dgonzalez\OneDrive - Neumont College of Computer Science\Documents\School\Second Year\Summer 2022\ServiceBasedProjects\UnlimitedCook-1\Recipe\bin\Debug\net6.0\Steeltoe.Connector.Abstractions.dll
+c:\Users\dgonzalez\OneDrive - Neumont College of Computer Science\Documents\School\Second Year\Summer 2022\ServiceBasedProjects\UnlimitedCook-1\Recipe\bin\Debug\net6.0\Steeltoe.Connector.ConnectorBase.dll
+c:\Users\dgonzalez\OneDrive - Neumont College of Computer Science\Documents\School\Second Year\Summer 2022\ServiceBasedProjects\UnlimitedCook-1\Recipe\bin\Debug\net6.0\Steeltoe.Discovery.Abstractions.dll
+c:\Users\dgonzalez\OneDrive - Neumont College of Computer Science\Documents\School\Second Year\Summer 2022\ServiceBasedProjects\UnlimitedCook-1\Recipe\bin\Debug\net6.0\Steeltoe.Discovery.ClientBase.dll
+c:\Users\dgonzalez\OneDrive - Neumont College of Computer Science\Documents\School\Second Year\Summer 2022\ServiceBasedProjects\UnlimitedCook-1\Recipe\bin\Debug\net6.0\Steeltoe.Discovery.Eureka.dll
+c:\Users\dgonzalez\OneDrive - Neumont College of Computer Science\Documents\School\Second Year\Summer 2022\ServiceBasedProjects\UnlimitedCook-1\Recipe\bin\Debug\net6.0\Steeltoe.Extensions.Configuration.Abstractions.dll
+c:\Users\dgonzalez\OneDrive - Neumont College of Computer Science\Documents\School\Second Year\Summer 2022\ServiceBasedProjects\UnlimitedCook-1\Recipe\bin\Debug\net6.0\System.Reflection.MetadataLoadContext.dll

@@ -25,7 +25,7 @@ namespace Controllers
 
         [HttpGet]
         [Route("{id}")]
-        public async Task<ActionResult<User>> GetUser(long id)
+        public async Task<ActionResult<User>> GetUser(int id)
         {
             var user = await _db.Users.FindAsync(id);
 
@@ -44,7 +44,7 @@ namespace Controllers
 
         [HttpDelete]
         [Route("{id}")]
-        public async Task<IResult> DeleteUser(long id)
+        public async Task<IResult> DeleteUser(int id)
         {
             if(await _db.Users.FindAsync(id) is User user)
             {

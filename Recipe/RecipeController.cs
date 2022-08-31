@@ -36,13 +36,13 @@ public class RecipeController : ControllerBase
     }
 
     [HttpGet("getRecipes")]
-    public async Task<ActionResult<List<Recipe>>> GetRecipes(List<string> ids)
+    public async Task<ActionResult<List<Recipe>>> GetRecipesFromList(List<string> ids)
     {
         return await _recipeDB.Find(Builders<Recipe>.Filter.In(r => r.Id, ids)).ToListAsync();
     }
 
     [HttpGet("randomRecipes")]
-    public async Task<ActionResult<List<Recipe>>> GetRandomRecipes(string id)
+    public async Task<ActionResult<List<Recipe>>> GetRandomRecipes()
     {
         return await _recipeDB.AsQueryable().Sample(10).ToListAsync();
     }

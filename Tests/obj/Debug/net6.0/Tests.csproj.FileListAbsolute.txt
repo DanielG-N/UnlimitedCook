@@ -172,3 +172,10 @@ c:\Users\dgonzalez\OneDrive - Neumont College of Computer Science\Documents\Scho
 c:\Users\dgonzalez\OneDrive - Neumont College of Computer Science\Documents\School\Second Year\Summer 2022\ServiceBasedProjects\UnlimitedCook-1\Tests\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 c:\Users\dgonzalez\OneDrive - Neumont College of Computer Science\Documents\School\Second Year\Summer 2022\ServiceBasedProjects\UnlimitedCook-1\Tests\bin\Debug\net6.0\User.dll
 c:\Users\dgonzalez\OneDrive - Neumont College of Computer Science\Documents\School\Second Year\Summer 2022\ServiceBasedProjects\UnlimitedCook-1\Tests\bin\Debug\net6.0\User.pdb
+c:\Users\dgonzalez\OneDrive - Neumont College of Computer Science\Documents\School\Second Year\Summer 2022\ServiceBasedProjects\UnlimitedCook-1\Tests\bin\Debug\net6.0\Microsoft.AspNetCore.TestHost.dll
+c:\Users\dgonzalez\OneDrive - Neumont College of Computer Science\Documents\School\Second Year\Summer 2022\ServiceBasedProjects\UnlimitedCook-1\Tests\bin\Debug\net6.0\System.IO.Pipelines.dll
+c:\Users\dgonzalez\OneDrive - Neumont College of Computer Science\Documents\School\Second Year\Summer 2022\ServiceBasedProjects\UnlimitedCook-1\Tests\bin\Debug\net6.0\CookBook.deps.json
+c:\Users\dgonzalez\OneDrive - Neumont College of Computer Science\Documents\School\Second Year\Summer 2022\ServiceBasedProjects\UnlimitedCook-1\Tests\bin\Debug\net6.0\CookBook.runtimeconfig.json
+c:\Users\dgonzalez\OneDrive - Neumont College of Computer Science\Documents\School\Second Year\Summer 2022\ServiceBasedProjects\UnlimitedCook-1\Tests\bin\Debug\net6.0\CookBook.exe
+c:\Users\dgonzalez\OneDrive - Neumont College of Computer Science\Documents\School\Second Year\Summer 2022\ServiceBasedProjects\UnlimitedCook-1\Tests\bin\Debug\net6.0\CookBook.dll
+c:\Users\dgonzalez\OneDrive - Neumont College of Computer Science\Documents\School\Second Year\Summer 2022\ServiceBasedProjects\UnlimitedCook-1\Tests\bin\Debug\net6.0\CookBook.pdb

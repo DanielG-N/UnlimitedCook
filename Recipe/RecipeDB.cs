@@ -1,9 +1,11 @@
 using Microsoft.Extensions.Options;
 using MongoDB.Driver;
+using MongoDB.Driver.Linq;
 
 public class RecipeDB
 {
-    public readonly IMongoCollection<Recipe> _recipeCollection;
+    public IMongoCollection<Recipe> _recipeCollection;
+    public RecipeDB(){}
 
     public RecipeDB(
         IOptions<RecipeDatabaseSettings> recipeDatabaseSettings)

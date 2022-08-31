@@ -13,4 +13,6 @@ public class Recipe
     public List<string> Ingredients { get; set; } = null!;
 
     public List<string> Instructions { get; set; } = null!;
+
+    public Recipe(){}
 }

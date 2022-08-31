@@ -53,6 +53,19 @@ services:
       - netCook.1
     depends_on:
       - eureka.c
+
+  user.2.c:
+    container_name: user.2.c
+    build:
+      context: ./User/
+      dockerfile: user.dockerfile
+    image: user.2.c:1
+    ports:
+      - "9006:80"
+    networks:
+      - netCook.1
+    depends_on:
+      - eureka.c
   
   cookbook.1.c:
     container_name: cookbook.1.c
@@ -76,6 +89,19 @@ services:
     image: recipe.1.c:1
     ports:
       - "9001:80"
+    networks:
+      - netCook.1
+    depends_on:
+      - eureka.c
+
+  recipe.2.c:
+    container_name: recipe.2.c
+    build:
+      context: ./Recipe/
+      dockerfile: recipe.dockerfile
+    image: recipe.2.c:1
+    ports:
+      - "9002:80"
     networks:
       - netCook.1
     depends_on:

@@ -43,7 +43,7 @@ public class CookBookController : ControllerBase
     }
 
     [HttpPut("{cookBookId}")]
-    public async Task<IResult> AddRecipe([FromBody]string recipeId, [FromQuery]int cookBookId)
+    public async Task<IResult> AddRecipe([FromBody]string recipeId, [FromRoute]int cookBookId)
     {
         var cookBook = await _cookBookDB.Find(x => x.Id == cookBookId).FirstOrDefaultAsync();
         cookBook.RecipeIds.Add(recipeId);
@@ -53,7 +53,7 @@ public class CookBookController : ControllerBase
     }
 
     [HttpPut("remove/{cookBookId}")]
-    public async Task<IResult> RemoveRecipe([FromBody]string recipeId, [FromQuery]int cookBookId)
+    public async Task<IResult> RemoveRecipe([FromBody]string recipeId, [FromRoute]int cookBookId)
     {
         var cookBook = await _cookBookDB.Find(x => x.Id == cookBookId).FirstOrDefaultAsync();
         cookBook.RecipeIds.Remove(recipeId);

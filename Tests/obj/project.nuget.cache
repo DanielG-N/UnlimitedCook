@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "84bw/I8lUUDM56BF8Hjt+JUJ1zG23puxDKQghU4EkdwNJD1gFL/nMh4mb0xFumnuUQNc5xk5L+/S7Hu5EsRBbA==",
+  "dgSpecHash": "lnr3mh8mjylIhK+aY58sWqCkOaJw2FoMiW2m/fUfDEPqRyk85FhFobmbKJS5KHBobgsZsT0f4tfyPR8AmP5Jfg==",
   "success": true,
   "projectFilePath": "c:\\Users\\dgonzalez\\OneDrive - Neumont College of Computer Science\\Documents\\School\\Second Year\\Summer 2022\\ServiceBasedProjects\\UnlimitedCook-1\\Tests\\Tests.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\dgonzalez\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\dgonzalez\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
     "C:\\Users\\dgonzalez\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.8\\microsoft.aspnetcore.authentication.jwtbearer.6.0.8.nupkg.sha512",
+    "C:\\Users\\dgonzalez\\.nuget\\packages\\microsoft.aspnetcore.testhost\\6.0.8\\microsoft.aspnetcore.testhost.6.0.8.nupkg.sha512",
     "C:\\Users\\dgonzalez\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",
     "C:\\Users\\dgonzalez\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\dgonzalez\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
@@ -117,6 +118,7 @@
     "C:\\Users\\dgonzalez\\.nuget\\packages\\system.io.compression.zipfile\\4.3.0\\system.io.compression.zipfile.4.3.0.nupkg.sha512",
     "C:\\Users\\dgonzalez\\.nuget\\packages\\system.io.filesystem\\4.3.0\\system.io.filesystem.4.3.0.nupkg.sha512",
     "C:\\Users\\dgonzalez\\.nuget\\packages\\system.io.filesystem.primitives\\4.3.0\\system.io.filesystem.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\dgonzalez\\.nuget\\packages\\system.io.pipelines\\6.0.3\\system.io.pipelines.6.0.3.nupkg.sha512",
     "C:\\Users\\dgonzalez\\.nuget\\packages\\system.linq\\4.3.0\\system.linq.4.3.0.nupkg.sha512",
     "C:\\Users\\dgonzalez\\.nuget\\packages\\system.linq.expressions\\4.3.0\\system.linq.expressions.4.3.0.nupkg.sha512",
     "C:\\Users\\dgonzalez\\.nuget\\packages\\system.net.http\\4.3.0\\system.net.http.4.3.0.nupkg.sha512",

@@ -8,7 +8,10 @@
     ".NETCoreApp,Version=v6.0": {
       "Tests/1.0.0": {
         "dependencies": {
+          "CookBook": "1.0.0",
+          "Microsoft.AspNetCore.TestHost": "6.0.8",
           "Microsoft.NET.Test.Sdk": "17.1.0",
+          "MongoDB.Driver": "2.17.1",
           "Moq": "4.18.2",
           "Recipe": "1.0.0",
           "User": "1.0.0",
@@ -49,6 +52,17 @@
         },
         "runtime": {
           "lib/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {
+            "assemblyVersion": "6.0.8.0",
+            "fileVersion": "6.0.822.36316"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.TestHost/6.0.8": {
+        "dependencies": {
+          "System.IO.Pipelines": "6.0.3"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.TestHost.dll": {
             "assemblyVersion": "6.0.8.0",
             "fileVersion": "6.0.822.36316"
           }
@@ -1347,6 +1361,14 @@
           "System.Runtime": "4.3.0"
         }
       },
+      "System.IO.Pipelines/6.0.3": {
+        "runtime": {
+          "lib/net6.0/System.IO.Pipelines.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.522.21309"
+          }
+        }
+      },
       "System.Linq/4.3.0": {
         "dependencies": {
           "System.Collections": "4.3.0",
@@ -1905,6 +1927,15 @@
         }
       },
       "xunit.runner.visualstudio/2.4.3": {},
+      "CookBook/1.0.0": {
+        "dependencies": {
+          "MongoDB.Driver": "2.17.1",
+          "Steeltoe.Discovery.Eureka": "3.2.1"
+        },
+        "runtime": {
+          "CookBook.dll": {}
+        }
+      },
       "Recipe/1.0.0": {
         "dependencies": {
           "MongoDB.Driver": "2.17.1",
@@ -1961,6 +1992,13 @@
       "sha512": "sha512-ktmldryRkyAMRQpluCZaltRvlcOrlE9SQDmnMOh+XTbck6Vi296UjvwdJb4ULU6PgvZh5j00KAp7uhjpcWQopA==",
       "path": "microsoft.aspnetcore.authentication.jwtbearer/6.0.8",
       "hashPath": "microsoft.aspnetcore.authentication.jwtbearer.6.0.8.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.TestHost/6.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CNG/aeTqlNHSp+nI4ihn+f1Hy1Z0pX0ASyEzt2lq+qcCvxb1cYhLDllFOQfZIa+/eXfeiQWw/CuwryIUQTtwiQ==",
+      "path": "microsoft.aspnetcore.testhost/6.0.8",
+      "hashPath": "microsoft.aspnetcore.testhost.6.0.8.nupkg.sha512"
     },
     "Microsoft.CodeCoverage/17.1.0": {
       "type": "package",
@@ -2725,6 +2763,13 @@
       "path": "system.io.filesystem.primitives/4.3.0",
       "hashPath": "system.io.filesystem.primitives.4.3.0.nupkg.sha512"
     },
+    "System.IO.Pipelines/6.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ryTgF+iFkpGZY1vRQhfCzX0xTdlV3pyaTTqRu2ETbEv+HlV7O6y7hyQURnghNIXvctl5DuZ//Dpks6HdL/Txgw==",
+      "path": "system.io.pipelines/6.0.3",
+      "hashPath": "system.io.pipelines.6.0.3.nupkg.sha512"
+    },
     "System.Linq/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -3130,6 +3175,11 @@
       "sha512": "sha512-kZZSmOmKA8OBlAJaquPXnJJLM9RwQ27H7BMVqfMLUcTi9xHinWGJiWksa3D4NEtz0wZ/nxd2mogObvBgJKCRhQ==",
       "path": "xunit.runner.visualstudio/2.4.3",
       "hashPath": "xunit.runner.visualstudio.2.4.3.nupkg.sha512"
+    },
+    "CookBook/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Recipe/1.0.0": {
       "type": "project",
